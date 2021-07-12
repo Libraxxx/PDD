@@ -1,0 +1,20 @@
+.search_input {
+    height: 90rpx;
+    padding: 10rpx;
+    /* 使用系统主题颜色：已经在app.wxss里面定义 */
+    /* background-color: var(--themeColor); */
+    background-color: pink;
+}
+
+.search_input navigator {
+    height: 100%;
+    /* 弹性布局 */
+    display: flex;
+    /* justify-content属性定义了项目在 主轴上 的对齐方式。 */
+    justify-content: center;
+    /* align-items属性定义项目在 交叉轴上 如何对齐。 */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10rpx;
+    color: #666;
+}

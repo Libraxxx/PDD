@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "fate": "../../components/fate/fate"
+    },
+    "navigationBarTitleText": "评分"
+}

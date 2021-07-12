@@ -1,0 +1,9 @@
+<view class="fate_wrap">
+    <view class="fateText">评分：</view>
+    <view wx:for="{{redScore}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <image class="star-icon" src="../images//love-red.png" data-redIndex="{{index}}" bindtap="giveScore"></image>
+    </view>
+    <view wx:for="{{grayScore}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <image class="star-icon" src="../images/love.png" data-grayIndex="{{index}}" bindtap="giveScore"></image>
+    </view>
+</view>
